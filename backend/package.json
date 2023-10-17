@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "json-server --port 4712 --watch ../backend/storage/database.json"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
