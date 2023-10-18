@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "backend": "json-server --port 4712 --watch ../backend/storage/database.json"
+    "backend": "json-server --port 4712 --watch ../backend/storage/database.json",
+    "backend-ips": "json-server --port 4712 --host 127.0.0.1 --host ::1 --watch ../backend/storage/database.json"
   },
   "author": "",
   "license": "UNLICENSED",
